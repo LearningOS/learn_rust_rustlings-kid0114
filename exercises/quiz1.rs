@@ -12,8 +12,8 @@
 
 // Put your function here!
 fn calculate_apple_price(num:i32)->i32{
-    return if num > 40 {
-        num
+    if num > 40 {
+        num * 1
     } else {
         num * 2
     }
