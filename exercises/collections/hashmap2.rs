@@ -2,9 +2,14 @@
 
 // A basket of fruits in the form of a hash map is given. The key
 // represents the name of the fruit and the value represents how many
-// of that particular fruit is in the basket. You have to put *MORE
-// THAN 11* fruits in the basket. Three types of fruits - Apple (4),
-// Mango (2) and Lychee (5) are already given in the basket. You are
+// of that particular fruit is in the basket.
+//
+// You have to put *MORE THAN 11* fruits in the basket.
+//at_least_five_types_of_fruits
+
+// Three types of fruits -
+// Apple (4),Mango (2) and Lychee (5)
+// are already given in the basket. You are
 // not allowed to insert any more of these fruits!
 //
 // Make me pass the tests!
@@ -12,7 +17,7 @@
 // Execute the command `rustlings hint hashmap2` if you need
 // hints.
 
-// I AM NOT DONE
+// I AM DONE
 
 use std::collections::HashMap;
 
@@ -50,7 +55,8 @@ mod tests {
         basket.insert(Fruit::Apple, 4);
         basket.insert(Fruit::Mango, 2);
         basket.insert(Fruit::Lychee, 5);
-
+        basket.insert(Fruit::Pineapple,3);
+        basket.insert(Fruit::Banana,2);
         basket
     }
 

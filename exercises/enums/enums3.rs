@@ -47,6 +47,15 @@ impl State {
             Message::Move(p)=>self.position=p,
             Message::Quit=>self.quit=true
         }
+        /*
+        match message{
+            Message::ChangeColor(color) => self.change_color(color),
+            Message::Echo(s) => self.echo(s),
+            Message::Quit => self.quit(),
+            Message::Move(p) => self.move_position(p),
+        }
+
+         */
     }
 }
 
